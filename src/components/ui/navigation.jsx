@@ -2,7 +2,7 @@ import { MenuIcon, XIcon } from "lucide-react";
 import React, { useState } from "react";
 import { Badge } from "./badge";
 import { Button } from "./button";
-import { cn } from "../../lib/utils";
+
 
 export const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
