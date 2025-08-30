@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# 🍯 Honey Apps - Modern UI Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive and modern user interface for a honey product page, built from scratch using React and the Shadcn UI component library. This project showcases a clean design with a focus on accessibility and user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Screenshot 
+ ![alt text](<Screenshot 2025-08-31 010148.png>)
+ 
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Modern Component-Based UI:** Built using high-quality, reusable components from Shadcn UI/Radix UI.
+- **Fully Responsive Design:** Looks great on all devices, from mobile phones to desktops.
+- **Interactive Modals:** Accessible and animated modal dialogs for displaying detailed information (e.g., UMF and MGO levels).
+- **Advanced Styling:** Styled with Tailwind CSS, featuring custom themes, fonts, and animations.
+- **Accessibility Focused:** Implemented with accessibility in mind, including keyboard navigation, focus management, and support for high-contrast/reduced-motion modes.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS
+- **UI Components:** Shadcn UI, Radix UI (Dialog, Select, etc.)
+- **Build Tool:** Create React App (react-scripts)
+- **Icons:** Lucide React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to run the project locally on your machine.
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You need to have Node.js and npm installed on your computer.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/honey-apps-react-ui.git](https://github.com/your-username/honey-apps-react-ui.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd honey-apps-react-ui
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Start the development server:**
+    ```bash
+    npm start
+    ```
+    The app will open automatically at `http://localhost:3000`.
