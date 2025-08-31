@@ -20,48 +20,48 @@ export const TasteProfileSection = () => {
 
   // Data for certifications
   const certifications = [
-    { src: "https://c.animaapp.com/meydk0yzXWQdn8/img/certifications.png" },
-    { src: "https://c.animaapp.com/meydk0yzXWQdn8/img/certifications-1.png" },
-    { src: "https://c.animaapp.com/meydk0yzXWQdn8/img/certifications-2.png" },
-    { src: "https://c.animaapp.com/meydk0yzXWQdn8/img/certifications-3.png" },
-    { src: "https://c.animaapp.com/meydk0yzXWQdn8/img/certifications-4.png" },
-    { src: "https://c.animaapp.com/meydk0yzXWQdn8/img/certifications-5.png" },
+    { src: "/images/certifications.png" },
+    { src: "/images/certifications-1.png" },
+    { src: "/images/certifications-2.png" },
+    { src: "/images/certifications-3.png" },
+    { src: "/images/certifications-4.png" },
+    { src: "/images/certifications-5.png" },
   ];
 
   // Data for size variants
   const sizeVariants = [
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/label---label-paints.png",
+      src: "/images/label---label-paints.png",
       selected: true,
       className: "border-[#e87722]",
     },
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/label---label-paints-4.svg",
+      src: "/images/label---label-paints-4.svg",
       selected: false,
       className: "",
     },
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/label---label-paints-5.svg",
+      src: "/images/label---label-paints-5.svg",
       selected: false,
       className: "",
     },
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/label---label-paints-6.svg",
+      src: "/images/label---label-paints-6.svg",
       selected: false,
       className: "",
     },
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/label---label-paints-2.svg",
+      src: "/images/label---label-paints-2.svg",
       selected: false,
       className: "",
     },
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/label---label-paints-1.svg",
+      src: "/images/label---label-paints-1.svg",
       selected: false,
       className: "",
     },
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/label---label-paints-3.svg",
+      src: "/images/label---label-paints-3.svg",
       selected: false,
       className: "",
     },
@@ -128,7 +128,7 @@ export const TasteProfileSection = () => {
             <img
               className="w-4 h-[17px]"
               alt=""
-              src="https://c.animaapp.com/meydk0yzXWQdn8/img/button---learn-more-about-afterpay---opens-a-dialog---svg.svg"
+              src="/images/svg.svg"
             />
             <span className="font-normal text-[#666666] text-xs sm:text-[13.9px] tracking-[0] leading-[25px]">
               What is UMF and MGO?
@@ -339,7 +339,7 @@ export const TasteProfileSection = () => {
             <img
               className="w-6 h-6"
               alt="Frame"
-              src="https://c.animaapp.com/meydk0yzXWQdn8/img/frame-1484578602.svg"
+              src="/images/frame-1484578602.svg"
             />
             <h3 className="[font-family:'Segoe_UI-Semibold',Helvetica] font-normal text-[#313131] text-xl text-center tracking-[0] leading-[normal]">
               Beauty Bundle
@@ -347,7 +347,7 @@ export const TasteProfileSection = () => {
             <img
               className="w-6 h-6"
               alt="Frame"
-              src="https://c.animaapp.com/meydk0yzXWQdn8/img/frame-1484578601.svg"
+              src="images/frame-1484578601.svg"
             />
           </div>
 
@@ -357,7 +357,7 @@ export const TasteProfileSection = () => {
                 <img
                   className="w-full h-[94.67px]"
                   alt="UMF 20+ Product"
-                  src="https://c.animaapp.com/meydk0yzXWQdn8/img/image-2.svg"
+                  src="/images/image-2.svg"
                 />
                 <h4 className="[font-family:'Segoe_UI-Semibold',Helvetica] font-normal text-[#313131] text-lg text-center tracking-[0] leading-[normal]">
                   UMF 20+
@@ -382,7 +382,7 @@ export const TasteProfileSection = () => {
                 <img
                   className="w-full h-[94.67px] object-cover"
                   alt="UMF 24+ Product"
-                  src="https://c.animaapp.com/meydk0yzXWQdn8/img/image-3.svg"
+                  src="/images/image-3.svg"
                 />
                 <h4 className="[font-family:'Segoe_UI-Semibold',Helvetica] font-normal text-[#313131] text-lg text-center tracking-[0] leading-[normal]">
                   UMF 24+
@@ -407,7 +407,7 @@ export const TasteProfileSection = () => {
                 <img
                   className="w-full h-[94.67px]"
                   alt="Wooden Spoon"
-                  src="https://c.animaapp.com/meydk0yzXWQdn8/img/image-152.svg"
+                  src="/images/image-152.svg"
                 />
                 <h4 className="[font-family:'Segoe_UI-Semibold',Helvetica] font-normal text-[#313131] text-lg text-center tracking-[0] leading-[normal] w-full">
                   Wooden Spoon
@@ -445,7 +445,7 @@ export const TasteProfileSection = () => {
             className="w-10 h-[39px] rounded-[19.77px] bg-cover bg-center"
             style={{
               backgroundImage:
-                "url(https://c.animaapp.com/meydk0yzXWQdn8/img/colourclub-logo.svg)",
+                "url(/images/colourclub-logo.svg)",
             }}
           />
           <span className="[font-family:'Segoe_UI-Regular',Helvetica] font-normal text-[#313131] text-sm tracking-[0] leading-[18.6px]">
@@ -493,13 +493,13 @@ export const TasteProfileSection = () => {
           <img
             className="w-[90px] h-[22px]"
             alt="Afterpay logo"
-            src="https://c.animaapp.com/meydk0yzXWQdn8/img/button---afterpay-logo---opens-a-dialog---svg.svg"
+            src="images/button---afterpay-logo---opens-a-dialog---svg.svg"
           />
           <Button variant="ghost" size="sm" className="p-0 h-auto">
             <img
               className="w-3.5 h-3.5"
               alt="Learn more"
-              src="https://c.animaapp.com/meydk0yzXWQdn8/img/button---learn-more-about-afterpay---opens-a-dialog---svg.svg"
+              src="/images/button---learn-more-about-afterpay---opens-a-dialog---svg.svg"
             />
           </Button>
         </div>
@@ -551,7 +551,7 @@ export const TasteProfileSection = () => {
             <img
               className="w-full h-px"
               alt="Taste profile scale"
-              src="https://c.animaapp.com/meydk0yzXWQdn8/img/input.svg"
+              src="/imges/svg.svg"
             />
             <div className="flex justify-between mt-4">
               <span className="[font-family:'Segoe_UI-Regular',Helvetica] font-normal text-[#313131] text-[13.9px] tracking-[0] leading-[18.6px]">

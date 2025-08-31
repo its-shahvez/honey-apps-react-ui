@@ -2,41 +2,42 @@ import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
 
 export const ImageGallerySection = () => {
+  // Maine filenames ko aapke screenshot ke hisaab se theek kar diya hai
   const galleryImages = [
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/1-manuka-honey-web-24--5-png.png",
+      src: "/images/1-manuka-honey-web-24--5-png.png",
       alt: "Manuka Honey Product 1",
     },
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/1-manuka-honey-web-24-png.png",
+      src: "/images/2-manuka-honey-web-24-png.png",
       alt: "Manuka Honey Product 2",
     },
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/1-manuka-honey-web-24--1-png.png",
+      src: "/images/3-manuka-honey-web-24--1-png.png",
       alt: "Manuka Honey Product 3",
     },
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/1-manuka-honey-web-24--3-png.png",
+      src: "/images/4-24-product-tiles-250g--2000-x-2000-06-jpg.png",
       alt: "Manuka Honey Product 4",
     },
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/us-24-product-tiles-250g--2000-x-2000-06-jpg.png",
+      src: "/images/5-24-product-tiles-250g--2000-x-2000-06-jpg.png",
       alt: "Manuka Honey Product 5",
     },
     {
-      src: "https://c.animaapp.com/meydk0yzXWQdn8/img/newzealandmanukahoneyumf24--06-136149-png.png",
+      src: "/images/6newzealandmanukahoneyumf24--06-136149-png.png",
       alt: "Manuka Honey Product 6",
     },
   ];
 
   return (
-    <section className="w-full max-w-[585px] mx-auto relative px-4 sm:px-0">
+        <section className="w-full max-w-[585px] mx-auto relative px-4 sm:px-0">
       {/* Hero Image */}
       <div className="translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:0ms]">
         <img
           className="w-full h-64 sm:h-80 lg:h-[617px] object-cover rounded-lg"
           alt="Manuka Honey Product Container"
-          src="https://c.animaapp.com/meydk0yzXWQdn8/img/container-1.svg"
+          src="/images/container-1.svg"
         />
       </div>
 
@@ -73,7 +74,7 @@ export const ImageGallerySection = () => {
               <div className="relative w-full h-full">
                 <div 
                   className="w-full h-full bg-cover bg-center" 
-                  style={{ backgroundImage: "url(https://c.animaapp.com/meydk0yzXWQdn8/img/image.png)" }}
+                  style={{ backgroundImage: "url(/images/contain-2.png)" }}
                   role="img"
                   aria-label="Product video thumbnail"
                 />
@@ -81,14 +82,14 @@ export const ImageGallerySection = () => {
                 <img
                   className="absolute w-full h-16 sm:h-20 lg:h-[99px] top-0 left-0"
                   alt=""
-                  src="https://c.animaapp.com/meydk0yzXWQdn8/img/image-1.png"
+                  src="/images/contain-3.png"
                 />
 
                 <div className="absolute w-8 h-8 sm:w-10 sm:h-10 lg:w-[50px] lg:h-[50px] top-2 left-2 lg:top-[7px] lg:left-[7px] rounded-full overflow-hidden">
                   <img
                     className="w-full h-full object-cover"
                     alt="New Zealand Honey Co. profile"
-                    src="https://c.animaapp.com/meydk0yzXWQdn8/img/link---photo-image-of-new-zealand-honey-co-.png"
+                    src="/images/contain-4.png"
                   />
                 </div>
 
@@ -163,5 +164,5 @@ export const ImageGallerySection = () => {
         </div>
       </div>
     </section>
-  );
+  )
 };

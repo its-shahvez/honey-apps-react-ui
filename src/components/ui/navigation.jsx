@@ -72,7 +72,7 @@ export const Navigation = () => {
             <img
               className="w-24 h-12 sm:w-32 sm:h-16 lg:w-[215px] lg:h-[103px]"
               alt="New Zealand Honey Co. Logo"
-              src="https://c.animaapp.com/meydk0yzXWQdn8/img/link-1.svg"
+              src="/images/new_zeland.svg"
             />
           </div>
 
@@ -105,7 +105,7 @@ export const Navigation = () => {
                 <img
                   className="w-8 h-8 lg:w-11 lg:h-11"
                   alt=""
-                  src="https://c.animaapp.com/meydk0yzXWQdn8/img/link.svg"
+                  src="/images/user.svg"
                 />
               </button>
 
@@ -116,7 +116,7 @@ export const Navigation = () => {
                 <img
                   className="w-8 h-8 lg:w-11 lg:h-11"
                   alt=""
-                  src="https://c.animaapp.com/meydk0yzXWQdn8/img/details-modal---details---slot---button-dialog---search.svg"
+                  src="/images/search.svg"
                 />
               </button>
 
@@ -127,7 +127,7 @@ export const Navigation = () => {
                 <img
                   className="w-5 h-5 lg:w-6 lg:h-6"
                   alt=""
-                  src="https://c.animaapp.com/meydk0yzXWQdn8/img/svg.svg"
+                  src="/images/cart.svg"
                 />
                 <Badge className="absolute -top-1 -right-1 w-5 h-5 lg:w-[22px] lg:h-[22px] bg-[#f1b434] text-[#313131] text-xs font-normal rounded-[11.25px] flex items-center justify-center p-0 hover:bg-[#f1b434]">
                   0
@@ -145,7 +145,7 @@ export const Navigation = () => {
               <img
                 className="w-6 h-6"
                 alt=""
-                src="https://c.animaapp.com/meydk0yzXWQdn8/img/details-modal---details---slot---button-dialog---search.svg"
+                src="/images/details-modal---details---slot---button-dialog---search.svg"
               />
             </button>
 
@@ -156,7 +156,7 @@ export const Navigation = () => {
               <img
                 className="w-5 h-5"
                 alt=""
-                src="https://c.animaapp.com/meydk0yzXWQdn8/img/svg.svg"
+                src="/images/svg.svg"
               />
               <Badge className="absolute -top-1 -right-1 w-4 h-4 bg-[#f1b434] text-[#313131] text-xs font-normal rounded-full flex items-center justify-center p-0 hover:bg-[#f1b434]">
                 0
@@ -197,7 +197,7 @@ export const Navigation = () => {
                   <img
                     className="w-6 h-6"
                     alt=""
-                    src="https://c.animaapp.com/meydk0yzXWQdn8/img/link.svg"
+                    src="/images/link.svg"
                   />
                   Account
                 </button>
